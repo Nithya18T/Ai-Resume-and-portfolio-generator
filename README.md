@@ -1,73 +1,184 @@
-# Welcome to your Lovable project
+# AI-Powered Intelligent Resume & Portfolio Generation Platform
 
-## Project info
+## Live Demo
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 https://your-vercel-link.vercel.app
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Project Overview
 
-**Use Lovable**
+The **AI-Powered Intelligent Resume & Portfolio Generation Platform** helps job seekers create optimized resumes and professional portfolios tailored to specific job roles.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+The system analyzes job descriptions, detects skill gaps, generates ATS-friendly resumes, and automatically builds a personal portfolio website.
 
-Changes made via Lovable will be committed automatically to this repo.
+This platform solves common problems faced by job seekers such as:
 
-**Use your preferred IDE**
+* Generic resume templates
+* Low ATS compatibility
+* Lack of professional portfolios
+* Difficulty identifying required skills for job roles
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Features
 
-Follow these steps:
+### User Profile Module
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Users can enter:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Name
+* Email
+* Education
+* Skills
+* Projects
+* Experience
+* Target job role
+* Job description
 
-# Step 3: Install the necessary dependencies.
-npm i
+### AI Skill Analyzer
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Extracts required skills from the job description.
+
+### Skill Gap Detection
+
+Compares user skills with job requirements and shows:
+
+* Missing skills
+* Skill match percentage
+* Recommended skills to learn
+
+### AI Resume Generator
+
+Automatically generates a professional resume including:
+
+* Summary
+* Skills
+* Projects
+* Experience
+* Education
+
+### ATS Optimization Engine
+
+Improves resume compatibility with Applicant Tracking Systems by:
+
+* Providing ATS score
+* Suggesting keywords
+* Improving formatting
+
+### Portfolio Website Generator
+
+Creates a personal portfolio website with sections:
+
+* Home
+* About
+* Skills
+* Projects
+* Contact
+
+### Interview Preparation Module
+
+Generates role-based interview questions.
+
+### Career Insights Module
+
+Displays:
+
+* Trending skills
+* Salary insights
+* Industry demand
+
+### PDF Export
+
+Users can download the generated resume as a PDF.
+
+---
+
+## Application Workflow
+
+User Profile Input
+↓
+Job Description Analysis
+↓
+Skill Gap Detection
+↓
+AI Resume Generation
+↓
+ATS Optimization
+↓
+Portfolio Website Generation
+↓
+Career Insights
+↓
+Interview Preparation
+↓
+Resume Preview & Download
+
+---
+
+## Tech Stack
+
+Frontend:
+
+* React
+* Tailwind CSS
+* Vite
+
+Authentication:
+
+* Firebase (Google Login)
+
+Deployment:
+
+* Vercel
+
+Version Control:
+
+* GitHub
+
+---
+
+## Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
+```
+
+Go to the project folder:
+
+```
+cd REPOSITORY_NAME
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Future Improvements
 
-## What technologies are used for this project?
+* AI-powered cover letter generation
+* Resume performance analytics
+* Job recommendation system
+* Multi-language support
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
