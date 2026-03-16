@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 ai-resume-and-portfolio-generator-pearl.vercel.app
 
 ---
 
