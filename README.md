@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-🔗 ai-resume-and-portfolio-generator-pearl.vercel.app
+https://ai-resume-and-portfolio-generator-pearl.vercel.app
 
 ---
 
@@ -124,10 +124,6 @@ Frontend:
 * Tailwind CSS
 * Vite
 
-Authentication:
-
-* Firebase (Google Login)
-
 Deployment:
 
 * Vercel
@@ -178,7 +174,3 @@ http://localhost:5173
 * Resume performance analytics
 * Job recommendation system
 * Multi-language support
-
----
-
-
